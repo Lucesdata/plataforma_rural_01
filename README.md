@@ -1,33 +1,50 @@
-# Plataforma Rural - PTAP Monitoring and Automation
+# Rural Platform - PTAP Monitoring and Automation
 
-## Project Overview
-Welcome to the **Plataforma Rural** repository! This project focuses on the **monitoring and automation of drinking water treatment plants (PTAPs)** in the rural areas of **Santiago de Cali, Colombia**. The platform leverages **IoT technologies**, **real-time data visualization**, and an **interactive frontend** to ensure efficient water quality management and infrastructure optimization.
+## Project: Monitoring and Automation of Rural PTAPs
 
-## Features
-- **Sensor Integration:** Real-time data acquisition from multiple PTAPs, including flow rates, pressure, water levels, and quality metrics (pH, turbidity, conductivity, etc.).
-- **IoT-based Data Management:** Robust backend for processing, storing, and transmitting critical sensor data.
-- **Interactive Frontend:** A user-friendly interface for real-time monitoring, control, and analytics.
-- **Scalability:** Modular design to integrate additional plants or features in the future.
-- **Compliance:** Adheres to local technical and regulatory standards for water quality monitoring.
+This repository hosts the development of the **Rural Platform**, an integrated system for the monitoring and automation of **Drinking Water Treatment Plants (PTAPs)** in the rural area of **Santiago de Cali, Colombia**. The project aims to optimize water management by implementing IoT technologies, real-time analytics, and automated control systems.
 
-## Initial Commit
-This repository includes the **base code** for:
-- Sensor control and data acquisition.
-- IoT data integration.
-- A prototype of the frontend interface.
+![Sensor Panel](./assets/panel.jpeg)
 
-The initial implementation is guided by **technical and contractual requirements** to meet the objectives of the project.
+### Project Context
 
-## Technologies
-- **Programming Language:** Python
-- **Framework:** Dash (Plotly)
-- **Database:** PostgreSQL
-- **IoT Integration:** MQTT/HTTP protocols
-- **Frontend:** React.js components within Dash framework
-- **Deployment:** Dockerized for scalability
+Efficient management of rural water treatment plants has been a challenge due to geographical dispersion and the lack of technological tools. This project aims to address that by enabling:
+- Real-time remote monitoring.
+- Automated control of treatment processes.
+- Continuous analysis of critical parameters such as flow rate, water quality, and pressure.
+
+**Monitored Plants**
+1. **La Vorágine** - A flagship plant with a robust design serving as a model for other installations.  
+2. **Pichindé**  
+3. **Montebello**  
+4. **Cascajal**  
+5. **Kilometer 18**
+
+![La Vorágine](./assets/voragine.png)
+
+## System Features
+- **Smart Control Panels**  
+  Integration of sensors capturing data on the quality and quantity of processed water. Each plant is equipped with panels that monitor key parameters.
+
+![Monitoring Display](./assets/display.jpeg)
+
+- **Real-Time Visualization**  
+  The interface includes interactive maps and dynamic charts for easy interpretation of data collected from all plants.
+
+- **Automated Management**  
+  Event-based configuration to adjust water treatment processes according to changes in incoming data, such as turbidity or flow variations.
+
+## Technologies Used
+- **Programming Language:** Python  
+- **Development Framework:** Dash (Plotly)  
+- **Database:** PostgreSQL  
+- **IoT:** MQTT/HTTP protocols  
+- **Frontend:** React.js components integrated with Dash  
+- **Containers:** Docker for scalability and portability.
 
 ## Getting Started
-1. **Clone the Repository:**
+1. **Clone the Repository**
    ```bash
    git clone https://github.com/your-username/plataforma_rural_01.git
+
 
